@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/**/
+
+.container {
+	max-width: 910px;
+	padding: 0 15px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.nav {
+	padding: 30px 0;
+}
+
+.nav a {
+	margin-right: 62px;
+	text-decoration: none;
+	color: #999;
+	display: inline-block;
+	transform: translateY(-10px);
+}
+
+.header {
+	padding: 50px;
+}
+
+.heading-wrapper {
+	text-align: center;
+	display: inline-block;
+	padding: 50px;
+	float: left;
+}
+
+.heading {
+	font-size: 72px;
+	margin-bottom: 20px;
+}
+
+.img-wrapper {
+	display: inline-block;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	padding: 8px 60px;
+	bordeR: 1px solid black;
+}
+
+.top-section,
+.bottom-section,
+.contact-section {
+	padding: 30px 0;
+}
+
+.top-section article {
+	display: inline-block;
+	width: 50%;
+}
+
+
+.bottom-section article {
+	display: inline-block;
+	width: 33%;
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+	padding: 15px 0;
+}
+
+address {
+	font-family: 'Titillium Web', sans-serif;
+}
